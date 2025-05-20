@@ -1,11 +1,110 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Página-1" id="cMQsHg7TZHF--DUH1Lc2">
-    <mxGraphModel dx="1674" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3218" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sPisuSPFegYg2qD67yh0-1" value="Data Aquisiton" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="sPisuSPFegYg2qD67yh0-2" value="Plataforma AI Pull Marketing - Workflows e Agents" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="1160" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-8" value="Aquisição de Informação Preliminar - Corporate Info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-2">
+          <mxGeometry x="20" y="80" width="310" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-9" value="- AI Agents que fazem c&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rawling/scrapping dos canais digitais da empresa (providenciados inicialmente no webform ou detetados no website caso não tenham sido disponibilizados.&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-8">
+          <mxGeometry y="30" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-10" value="- AI Agents que analisam, descrevem, sumarizam e organizam toda a informação textual e multimédia presente no conteudo obtido. Pretende-se que cada quantum de conhecimento seja associado à fonte de onde foi obtido para que exista sempre rastreabilidade." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-8">
+          <mxGeometry y="130" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-11" value="- No final sabêmos ou conseguimos inferir tudo o que necessitamos sobre a empresa: o que faz, como faz, onde está, quais os clientes, quais os fornecedores e outros parceiros, qual a presença online, voz autoral, etc etc etc. Esta informação integra a chamada Corporate Info" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-8">
+          <mxGeometry y="250" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-13" value="Pesquisa e Knowledge Base" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-2">
+          <mxGeometry x="393" y="35" width="330" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-14" value="- AI Agents que, usando da Corporate Info, Knowledgebase e outputs de todo este sistema criam e refinam termos de pesquisa de acordo com um &quot;Protocolo de Pesquisa&quot; que é comum a todo o sistema.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-13">
+          <mxGeometry y="30" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-15" value="- A informação proveniente de fontes oficiais do país onde a empresa tem sede é prioritária, seguida de outras fontes naturais do mesmo país, seguida de informações expressas na linguagem principal, seguido de informação expressa em inglês mas relevante ao panorama nacional da empresa, seguida de informação genérica que possa ser aproveitada pela empresa expressa em qualquer lingua com prioridade para mercados onde a empresa está ou deseja estar. (Pode ser obtida esta informação no webform inicial ou inferida no Corporate Info)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-13">
+          <mxGeometry y="110" width="330" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-16" value="- AI Agents que com o protocolo de pesquisa e os termos de pesquisa criados podemos começar a construir e refinar a nossa Knowledge Base e Corporate Info." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-13">
+          <mxGeometry y="270" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-18" value="- A pesquisa web é efectuada usando todas as funcionalidade do Searxng como metamotor de pesquisa. API de pesquisa adicionais podem ser incluidas para complementar." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-13">
+          <mxGeometry y="330" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-19" value="- Toda a informação é gerida e guardade em formato relacional e vectorial de forma a manter total rastreabilidade e acessibilidade a todos os AI Agents do sistema" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-13">
+          <mxGeometry y="410" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="sPisuSPFegYg2qD67yh0-2" source="sPisuSPFegYg2qD67yh0-8" target="sPisuSPFegYg2qD67yh0-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="310" as="sourcePoint" />
+            <mxPoint x="290" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-20" value="Orquestração, Planeamento e Calendarização." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-2">
+          <mxGeometry x="807" y="210" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-21" value="- AI Agents que, usando da Corporate Info, Knowledgebase e outputs de todo este sistema planeiam, calendarizam e orquestram (criando tasks atómicas o mais fine grained possivel de forma a podermos utilizar modelos llm locais e pequenos capazes de concluir tarefas pequenas com contextos pequenos.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-20">
+          <mxGeometry y="30" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.003;exitY=0.776;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.008;entryY=0.276;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="sPisuSPFegYg2qD67yh0-2" source="sPisuSPFegYg2qD67yh0-15" target="sPisuSPFegYg2qD67yh0-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="723.0000000000005" y="260" as="sourcePoint" />
+            <mxPoint x="740" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-28" value="Criação de Conteudo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-2">
+          <mxGeometry x="807" y="365" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-29" value="&lt;div&gt;- Estes modelos pequenos e especializados são incorporados em &quot;micro ai agents&quot; cuja unica responsabilidade é criar conteudo (ou pedaços de conteudo) para os diferentes canais de marketing seguindo as regras e calendário definidos.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-28">
+          <mxGeometry y="30" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="sPisuSPFegYg2qD67yh0-2" target="sPisuSPFegYg2qD67yh0-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="723.0000000000005" y="440" as="sourcePoint" />
+            <mxPoint x="817" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sPisuSPFegYg2qD67yh0-2" source="sPisuSPFegYg2qD67yh0-21" target="sPisuSPFegYg2qD67yh0-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="743" y="280" as="sourcePoint" />
+            <mxPoint x="827" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-34" value="Validação, Conformidade e Fact Checking" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-2">
+          <mxGeometry x="807" y="35" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-35" value="- AI Agents que validam o conteudo gerado de acordo com as regras e fazem fact checking à nossa knowledge base e online. Encaminham falhas para os destinatários apropriados (Falhas no conteudo para que sejam replaneadas ou refeitas, falhas na knowledge base para que sejam corrigidas ou eliminadas, etc.&lt;div&gt;Possibilidade de usar &quot;micro ai agents&quot; especializados apenas numa tarefa especifica.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="sPisuSPFegYg2qD67yh0-34">
+          <mxGeometry y="30" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="sPisuSPFegYg2qD67yh0-2" target="sPisuSPFegYg2qD67yh0-34" source="sPisuSPFegYg2qD67yh0-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="723" y="95" as="sourcePoint" />
+            <mxPoint x="740" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sPisuSPFegYg2qD67yh0-2" source="sPisuSPFegYg2qD67yh0-35" target="sPisuSPFegYg2qD67yh0-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="743" y="115" as="sourcePoint" />
+            <mxPoint x="972" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-3" value="&lt;u&gt;Webform&lt;/u&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;gt; Website da Empresa&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;gt; Redes Sociais&lt;/div&gt;&lt;div&gt;&amp;gt; Outros (Marketplaces, Rss, github, etc)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="295" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sPisuSPFegYg2qD67yh0-4" target="sPisuSPFegYg2qD67yh0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="315" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sPisuSPFegYg2qD67yh0-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sPisuSPFegYg2qD67yh0-3" target="sPisuSPFegYg2qD67yh0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="230" as="sourcePoint" />
+            <mxPoint x="20" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
